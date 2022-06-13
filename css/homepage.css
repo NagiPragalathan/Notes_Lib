@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("../images/newbuliding.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+.menu{
+    position: relative;
+    display: flex;
+}
+
+.btn{
+    visibility: hidden;
+}
+.svg:hover{
+    transform: rotate(360deg);
+}
+.menuContiner{
+    background-color: #7e7a7a26;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0px;
+    transform: scaleY(1);
+    width: 100%;
+    transition: 1s ease-in-out;
+    align-items: center;
+    align-content: center;
+}    
+.open{
+    visibility: hidden;
+}
+@media screen and (min-width:400px){
+    .open{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:400px) {
+    .open{
+        visibility: visible;
+        position: absolute;
+        width: 45px;
+        box-shadow: 0px 0px 20px 0px #85858554;
+        height: 42px;
+        background-color: #525252;
+        right: 0px;
+        margin-right: 20px;
+        margin-top: 14px;
+        transition: 1s;
+        border-radius: 23px;
+    }
+    .listItem{
+        list-style: none;
+        padding: 18px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .open:hover{
+        box-shadow: 0px 0px 20px 0px #f5dede54;
+        transition: 1s;
+        background-color: #b5aaaa;
+    }
+    .menuContiner{
+        background-color: #7e7a7a26;
+        flex-wrap: wrap;
+        position: absolute;
+        right: 0px;
+        transform: scaleY(0);
+        width: 100%;
+        transition: 1s ease-in-out;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .btn {
+        width: 42px;
+        visibility: visible;
+        height: 39px;
+        margin-right: 4px;
+        border-radius: 18px;
+        transform: translateY(45px);
+        background-color: #404040;
+        border: 3px solid #565656;
+        transition: 1s ease-in-out;
+    }
+}
+.listItem{
+    list-style: none;
+    padding: 18px;
+}
+.listItem:hover{
+    background-color: #345252b3;
+    border-radius: 20px;
+    transition: 1s;
+}
+.listItem a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.box{
+    width: 61px;
+    border-radius: 18px;
+    position: absolute;
+    height: 34px;
+    background-color: transparent;
+    cursor: pointer;
+    top: 5px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.inputs h2{
+    color: #666666;
+    font-style: oblique;
+    font-family: cursive;
+}
+.dep{
+    box-shadow: inset 1px 1px 20px 0px #c3c3c359;
+    width: 204px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 43px;
+    background-color: #000000;
+    margin-top: 15px;
+    color: #c8cbcb;
+}
+.submit{
+    box-shadow: inset 1px 1px 20px 0px #c3c3c359;
+    width: 131px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    height: 43px;
+    background-color: #000000;
+    margin-top: 15px;
+    color: #cdcdcd;
+    transition: 1s ease-in-out;
+}
+.submit:hover{
+    background-color: #242424;
+    transition: 1s ease-in;
+}
+.phudo{
+    display: flex;
+    width: 100%;
+    height: 165px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.phudo h1{
+    color: #e3e3e3;
+    font-family: Sofia;
+}

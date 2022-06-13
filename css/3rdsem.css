@@ -1,0 +1,54 @@
+body{
+    background-image: url("../images/wite.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.null{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.null h1{
+    color: #a3a3a3;
+    font-family: cursive;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    width: 100%;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 17px;
+    transition: 1s ease-in-out;
+    margin-bottom: 11px;
+    color: black;
+    background-image: linear-gradient(43deg, black, #404040e0,#00000014);
+    border: 2px solid #7878786b;
+    font-weight: bolder;
+    font-size:larger;    
+}
+.sub:hover{
+    background-image: linear-gradient(182deg, black, transparent);
+    box-shadow: inset 0px 0px 20px 3px #000000ba;
+    transition: 1s ease-in;
+}
