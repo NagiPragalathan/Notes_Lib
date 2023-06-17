@@ -17,7 +17,7 @@ Key Features:
 
 Usage Instructions:
 
-1. Website Access: Visit the Notes\_Lib website at \[insert\_website\_url\] to explore the collection of notes and study materials. Browse through the subjects and topics to find the relevant content.
+1. Website Access: Visit the Notes\_Lib website at \[[Download App](https://github.com/NagiPragalathan/Notes_Lib/blob/main/Notes_lib%20(1).apk)] to explore the collection of notes and study materials. Browse through the subjects and topics to find the relevant content.
     
 2. Mobile Application: Download the Notes\_Lib mobile application from \[insert\_app\_store\_links\] to access the notes library on your mobile device. Sign in using your credentials to enjoy the seamless mobile experience.
     
@@ -30,4 +30,35 @@ License: This project is licensed under \[insert\_license\_type\]. Please refer 
 
 For any inquiries or suggestions, please contact \[insert\_contact\_details\]. We welcome your feedback and contributions to enhance the Notes\_Lib and make it more valuable for the student community.
 
-Note: This project is not affiliated with Anna University or any official academic institutions. It is a practice project developed for educational purposes and to improve programming skills.
+## Instructions to Run the Code
+
+To run the static website locally, follow the steps below:
+
+1. Clone the repository to your local machine using the following command:
+    
+    bashCopy code
+    
+    `git clone https://github.com/NagiPragalathan/Notes_Lib.git` 
+    
+2. Navigate to the project directory:
+    
+    bashCopy code
+    
+    `cd Notes_Lib` 
+    
+3. Open the `index.html` file in your preferred web browser.
+    
+    arduinoCopy code
+    
+    `open index.html` 
+    
+4. The website will now open in your browser, and you can start exploring the available notes and study materials.
+    
+
+Please note that since this is a static website, there is no need for any additional setup or server configuration. The website can be directly opened by double-clicking on the `index.html` file or by running the above steps.
+
+If you encounter any issues or have any questions, please feel free to reach out to us at \[nagipragalathan@gmail.com].
+
+Enjoy using Notes\_Lib for accessing your CSE 4th Semester study materials!
+
+**Note**: This project is not affiliated with Anna University or any official academic institutions. It is a practice project developed for educational purposes and to improve programming skills.
